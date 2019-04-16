@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>0.0.1</Version>
+    <Authors>Burton Rheutan</Authors>
+    <RepositoryUrl>https://github.com/burtonr/OpenFaaS.FunctionSDK</RepositoryUrl>
+    <Description>Library for accessing OpenFaaS function input and output properties</Description>
+    <PackageTag>OpenFaaS</PackageTag>
   </PropertyGroup>
 
 </Project>
