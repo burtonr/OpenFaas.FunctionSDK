@@ -4,9 +4,9 @@ using System.Net.Http;
 
 namespace OpenFaaS.FunctionSDK
 {
-    public class FunctionContext<T> where T : class
+    public class FunctionContext
     {
-        public T Body { get; set; }
+        public object Body { get; set; }
         public NameValueCollection QueryString { get; set; }
         public HttpMethod Method { get; set; }
         public NameValueCollection Headers { get; set; }
